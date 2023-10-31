@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import TextInput from "../ui/TextInput";
-import NumberInput from "../ui/numberInput";
+import NumberInput from "../ui/NumberInput";
 import { useGetVideosQuery } from "../../feature/videos/videosApi";
 import {
   useAddAssignmentMutation,
