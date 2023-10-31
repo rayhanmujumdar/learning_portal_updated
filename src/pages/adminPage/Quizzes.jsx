@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import QuizzesTable from "../../components/dashboard/quizzes/QuizzesTable";
-import QuizDeleteConfirm from "../../components/dashboard/quizzes/quizDeleteConfirm";
+import QuizDeleteConfirm from "../../components/dashboard/quizzes/QuizDeleteConfirm";
 import Modal from "../../components/Modal/Modal";
 import AddQuizForm from "../../components/form/AddQuizForm";
 import EditQuiz from "../../components/dashboard/quizzes/EditQuiz";
