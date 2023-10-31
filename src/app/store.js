@@ -15,7 +15,7 @@ const store = configureStore({
     leaderboard: leaderboardReducer,
     assignmentMarkStatus: assignmentMarkReducer,
   },
-  devTools: process.env.NODE_ENV !== "production",
+  devTools: import.meta.env.NODE_ENV !== "production",
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(apiSlice.middleware),
 });

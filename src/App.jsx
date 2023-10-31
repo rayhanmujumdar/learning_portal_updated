@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
-import Register from "./pages/register";
+import Register from "./pages/Register";
 import CoursePlayer from "./pages/studentPage/CoursePlayer";
 import Quiz from "./pages/studentPage/Quiz";
 import LeaderBoard from "./pages/studentPage/LeaderBoard";
